@@ -4,6 +4,13 @@
 	<title>Faunie's Website (Home)</title>
 
 <style type="text/css" media="screen">
+.special {
+	border: 1px solid purple;
+}
+
+#user-name {
+	font-weight: bold;
+}
 body {
 	background-color: #c1c1c1 ;
 	margin: 3;
@@ -40,7 +47,8 @@ p {
 
 
 <em>A life full of love, laughs, animals, and way too many snuggles.</em>
-<p>My name is Faunie, I have a loving boyfriend, an adorable dog, and an over-sized cat that loves love.</p>
+<p class="special">My name is
+  <span id="user-name">Faunie</span>. I love in Portland with my loving boyfriend <span id="user-name">Eli</span>, an adorable dog name <span id="user-name">Luna-Belle</span>, and an over-sized cat named <span id="user-name">Simba</span>, who loves love.</p>
 <p>Here is a short list of just a few of my favorite things:</p>
 <ul>
 
@@ -53,10 +61,27 @@ p {
 	<li>Food</li>
 	<li>My Friends</li>
 	<li>Portland</li>
+	<li>Cooking</li>
 </ul>
+<p><FORM METHOD=”post” ACTION="server_file_to_process_form_data">
+
+<B>Poll</B><P>
+
+<B>I absolutely love cooking. If I share some of my recipes with you, would you be willing to share some of your recipes with me?</B><P>
+
+<INPUT TYPE="radio" NAME="answer" value="1">Yes<BR>
+
+<INPUT TYPE="radio" NAME="answer" value="2">No<BR>
+
+<INPUT TYPE="submit" name="submit" value="Submit"/>
+
+</FORM>
 
 </body>
+
 </html>
 
+<p>
 <a href="http://instagram.com/faunie_s" target="_blank">Instagram</a>
 <a href="https://www.facebook.com/fanny.szeloczei" target="_blank">Facebook</a>
+</p>
